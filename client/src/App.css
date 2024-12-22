@@ -1,0 +1,299 @@
+
+.main1{
+  height: 700px;
+  background-image: url(https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp);
+}
+.main1{
+  color: white;
+  display: flex;
+  padding: 100px 200px;
+  gap:250px;
+  font-size: 20px;
+}
+.main1-1{
+  padding-top: 100px;
+}
+.main-form{
+  padding: 50px;
+  display: grid;
+  gap:20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+.main-form input{
+  width: 350px;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.main-form button,.main4 button{
+  width: 350px;
+  height: 60px;
+  background-color:bisque;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  background-color: rgb(250, 220, 183)
+}
+
+/* practice area */
+
+.main2{
+  padding: 50px 150px;
+  background-color: rgb(246, 246, 246);
+}
+.main2-1{
+  text-align: center;
+  margin: 40px 0px;
+}
+.main2-2{
+  margin-bottom: 40px;
+  display: flex;
+  gap:30px;   
+}
+.main2-2 .card{
+  padding: 40px;
+  box-shadow: 5px 5px 10px whitesmoke;
+}
+.main2-2 .icolor{
+  background-color: bisque;
+  border-radius: 100%;
+  width:50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+/* book appointment */
+.main3{
+  padding: 100px 150px;
+  display: flex;
+  gap:30px;
+}
+.main3 img{
+  width: 350px;
+  height: 400px;
+}
+.main4{
+  padding-left: 60px;
+  font-size: 20px;
+}
+.main4 button{
+  margin-top: 50px;
+}
+/* happy customer */
+.main4-1{
+  display: flex;
+  gap:30px;
+}
+.main5 h2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.main5{
+  padding:50px 150px;
+  background-color: rgb(246, 246, 246);
+}
+.main4-2{
+  padding: 50px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 10px whitesmoke;
+  
+}
+.main4-3{
+  display: flex;
+  margin-bottom: 30px;
+}
+.main4-3 img{
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.main4-3 p{
+  line-height: 1;
+}
+.happy-p{
+  padding-top: 20px;
+}
+
+/* legal solutions */
+.main6{
+  padding: 50px 150px;
+  display: flex;
+  gap:30px;
+}
+.main6 img{
+  width: 350px;
+  height: 450px;
+}
+.main6-1{
+  font-size: 18px;
+  width: 500px;
+}
+summary,details p{
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0px;
+  border: 2px solid rgb(224, 224, 224);
+}
+.main6-1 ul{
+  padding: 0;
+  list-style-type: none;
+}
+/* About */
+.about1 h2{
+  padding-top: 50px;
+  text-align: center;
+}
+.about1{
+  padding-bottom: 50px;
+  background-color: rgb(246, 246, 246);
+}
+
+@media only screen and (min-width:450px) and (max-width:1200px){
+  .main1{
+      flex-wrap: wrap;
+      padding: 50px 100px;
+      gap:30px;
+      font-size: 15px;
+      height: auto;
+  }
+  .main-form input{
+      width: auto;
+      height: 30px;
+      padding-left: 5px;
+    }
+  .main-form button,.main4 button{
+      width: auto;
+      height: 30px;
+     
+  }
+  .main2{
+      padding: 50px 100px;
+  }
+  .main2-2{
+      flex-wrap: wrap;
+      gap:10px; 
+      padding: 10px 10px;  
+   }
+   .main2 .card {
+     width: auto;
+   }
+   .main3{
+      padding: 50px 100px;
+        flex-wrap: wrap;
+      }
+      .main3 img{
+          width: 300px;
+          height: 350px;
+      }
+      .main4{
+          padding-left: 1px;
+          font-size: 16px;
+      }
+      .main4 button{
+          margin-top: 20px;
+      }
+      .main4-1{
+          display: flex;
+          flex-wrap: wrap;
+          gap:30px;
+      }
+      .main5 h2{
+          text-align: center;
+          padding-bottom: 50px;
+      }
+      .main5{
+          padding:50px 100px;
+        width: auto;
+      }
+      .main6{
+          padding: 50px 100px;
+          flex-wrap: wrap;
+          gap:30px;
+      }
+      .main6 img{
+          width: 300px;
+          height: 350px;
+      }
+     
+}
+
+@media only screen and (max-width:450px){
+  .main-form{
+      padding: 20px;
+       gap:20px;
+  }
+  .main1{
+      flex-wrap: wrap;
+      /* padding: 50px; */
+      gap:30px;
+      font-size: 15px;
+      height: auto;
+  }
+  .main-form input{
+      width: auto;
+      height: 30px;
+      padding-left: 20px;
+    }
+  .main-form button,.main4 button{
+      width: auto;
+      height: 30px;
+     
+  }
+  /* .main2{
+      padding: 50px 100px;
+  } */
+  .main2-2{
+      flex-wrap: wrap;
+      gap:10px; 
+      padding: 10px 10px;  
+   }
+   .main2 .card {
+     width: auto;
+   }
+   .main3{
+      /* padding: 50px 100px; */
+        flex-wrap: wrap;
+      }
+      .main3 img{
+          width: 300px;
+          height: 350px;
+      }
+      .main4{
+          padding-left: 1px;
+          font-size: 16px;
+      }
+      .main4 button{
+          margin-top: 20px;
+      }
+      .main4-1{
+          display: flex;
+          flex-wrap: wrap;
+          gap:30px;
+      }
+      .main5 h2{
+          text-align: center;
+          padding-bottom: 50px;
+      }
+      .main5{
+          /* padding:50px 100px; */
+        width: auto;
+      }
+      .main6{
+          /* padding: 50px 100px; */
+          flex-wrap: wrap;
+          gap:30px;
+      }
+      .main6 img{
+          width: 250px;
+          height: 350px;
+      }
+     
+  .main1,.main2,.main3,.main5,.main6{
+      padding: 30px;
+  }
+}

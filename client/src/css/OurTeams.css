@@ -1,0 +1,43 @@
+.team4-1{
+    display: flex;
+    gap:30px;
+  }
+
+  .team5{
+    padding:30px 150px;
+    background-color: rgb(246, 246, 246);
+  }
+  .team4-4{
+    padding: 50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 10px whitesmoke;
+ }
+ 
+ .team4-2 img{
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 38%;
+    margin-bottom: -50px;
+  }
+  .team4-2 h3, .team4-2 h5, .team4-2 p{
+    text-align: center;
+  }
+  .team4-4 h5{
+    padding-top: 30px;
+  }
+
+  @media only screen and (min-width:995px) and (max-width:1350px){
+    .team4-2 img{
+      margin-left: 32%;
+    }
+  }
+  @media only screen and (max-width:995px){
+    .team4-1{
+        flex-wrap: wrap;
+        gap:15px;
+    }
+    .team5{
+        padding: 30px 50px;
+    }
+  }

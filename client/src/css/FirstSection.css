@@ -1,0 +1,26 @@
+.practice{
+    height: 600px;
+    background-image: url(https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp);
+}
+.practice1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.practice2{
+    width: 650px;
+}
+.practice2 .bold{
+    font-size: 45px;
+    font-weight: 400;
+}
+.practice2 p, .practice2 h2{
+    text-align: center;
+    align-content: center;
+    color: white;
+
+}
+.practice2 h2{
+    padding-top: 200px;
+
+}

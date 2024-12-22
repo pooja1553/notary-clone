@@ -1,0 +1,48 @@
+header{
+    background-color:#ffe6c5;   
+}
+.nav2{
+    padding-left: 200px;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.nav1{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header{
+   padding-left: 150px;
+}
+.nav-item{
+     padding-left: 60px;
+}
+.nav2:hover{
+    color: #fcab41;
+}
+.nav1:hover{
+     color:#fcab41;
+}
+@media only screen and (min-width:900px) and (max-width:1300px){
+    .nav2{
+        padding-left: 30px;
+    }
+    .header{
+        padding-left: 50px;
+    }
+    .nav-item{
+        padding-left: 20px;
+    }
+}
+@media only screen  and (max-width:899px){
+    .nav2{
+        padding-left: 30px;
+    }
+    .header{
+        padding-left: 10px;
+    }
+    .nav-item{
+        padding-left: 20px;
+    }
+}
